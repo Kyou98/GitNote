@@ -1,2 +1,4 @@
 GitNote
-change file to confirm the git statuse
+change file to confirm the git status
+
+git add and then change the file, git commit, check the commit content
