@@ -97,7 +97,7 @@ Shell Script
 1. 堆 （
 2. 栈  
 3. 队列 
-4. 排序（冒泡，快排，归并）
+4. 排序（冒泡，快排，归并）https://www.geeksforgeeks.org/quick-sort/
 5. 树（前序，中序，后序）
 
 
@@ -107,3 +107,51 @@ Shell Script
 
 ### python 垃圾回收###
 
+## 项目回顾 ##
+1. 常见异常类型（业务需求，代码实现，组件错误） 
++ python  <https://docs.python.org/3/library/exceptions.html#concrete-exceptions> 
+
+  + **Concrete Exceptions：**  
+    * EOFError  
+    * AttributeError  
+    * IndexError   
+    * OverflowError     
+    * TypeError    
+    * SyntaxError  
+    * SystemError  
+    * ZeroDivisionError    
+    * IOError    
+  + **OS Exceptions：**    
+    * FileNotFoundError   
+    * FileExistsError  
+    * ConnectionError    
+    * PermissionError  
+    * TimeoutError
++  java <https://www.geeksforgeeks.org/exceptions-in-java/>  
+    * Exceptions
+      * CheckedExceptions  
+        * IO Exception
+        * Compile Exception  
+      * UncheckedExceptions  
+        * Runtime Exceptions
+        * NullPointer Exceptions
+
+    * Error
+      * Virtual Mechine Error
+      * Assertion Error
+
+
+
+2. 印象深刻的bug
+3. 关于redis 的使用，bitmap + redis 实现order_id唯一性
+4. RIA MCB Margin业务内部逻辑梳理， 小黄鸭练习
+5. flash 与 cashier 的内部通信
+6. X-mind，Paw，Curl使用
+7. 两次点击 怎么防止重复下单（并发，关键资源加锁，同步机制）
+
+8. 异常状态码：  
+502  
+504  
+500  
+404  
+400  
